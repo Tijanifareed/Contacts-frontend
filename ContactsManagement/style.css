@@ -20,4 +20,35 @@ body{
     width: 80px;
     border-radius:7px;
     border: none;
+    margin-top: 1rem;
+}
+.nav-button:hover{
+    transform: scale(1.2);
+}
+
+.ContactManagement{
+    font-size: 72px;
+    font-weight: 700;
+    color:rgb(3,54,61);
+    margin-bottom: 0;
+    font-family: "Sharp Sans",Arial,sans-serif;
+    line-height: 80px;
+}
+
+.container{
+    display: flex;
+    gap: 90px;
+}
+.contain{
+    margin-left: 1rem;
+}
+
+.image{
+    height: 6.5rem;
+    width: 8.5rem;
+}
+
+.first-pics{
+    height:25rem;
+    width: 40rem;
 }
