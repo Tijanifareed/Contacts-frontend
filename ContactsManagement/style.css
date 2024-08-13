@@ -1,0 +1,23 @@
+body{
+    background-color: #FED6A8;
+}
+
+
+
+.nav{
+    display: flex;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    margin-left : 58rem
+}
+
+.nav-button{
+    height: 40px;
+    width: 80px;
+    border-radius:7px;
+    border: none;
+}
