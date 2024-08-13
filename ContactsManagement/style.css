@@ -1,21 +1,23 @@
 body{
-    background-color: #FED6A8;
+    background-color: #FFBE58;
 }
 
 
 
 .nav{
     display: flex;
+
 }
 
 .nav-bar{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: right;
-    margin-left : 58rem
+    margin-left : 55rem
 }
 
 .nav-button{
+    cursor: pointer;
     height: 40px;
     width: 80px;
     border-radius:7px;
@@ -40,15 +42,23 @@ body{
     gap: 90px;
 }
 .contain{
-    margin-left: 1rem;
+    margin-top: 50px;
+    margin-left: 3rem;
 }
 
 .image{
-    height: 6.5rem;
-    width: 8.5rem;
+    height: 4rem;
+    width: 7rem;
 }
 
 .first-pics{
     height:25rem;
-    width: 40rem;
+    width: 35rem;
+}
+.sub-header{
+    align-items: end;
+    font-family: "Sharp Sans", Arial, sans-serif;
+    color: rgb(3, 54, 61);
+    font-weight: 600;
+    font-size: 20px;
 }
