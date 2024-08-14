@@ -25,7 +25,7 @@ body{
 
 }
 
-.user-input{
+input{
     border-radius: 10px;
     border: solid gray;
     box-shadow: none;

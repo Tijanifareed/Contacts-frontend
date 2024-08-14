@@ -14,17 +14,19 @@
     <div class="sign-up">
         <h2 class="sign-up-message">Signup</h2>
         <p class="some-details">Just some details to get you in.!</p>
-        <input class="user-input" type="text" placeholder="First Name" size="30px" style="background-color:#FFBE58 "/>
-        <input class="user-input" type="text" placeholder="Last Name" size="30px" style="background-color:#FFBE58"/>
-        <input class="user-input" type="text" placeholder="Email" size="30px" style="background-color:#FFBE58"/>
-        <input class="user-input" type="password" placeholder="Password" size="30px" style="background-color:#FFBE58"/>
-        <button class="sign-up-button">Signup</button>
+        <form class="form-tag">
+            <input id="first-name" type="text" name="first-name" placeholder="First Name" size="30px" style="background-color:#FFBE58 " required/>
+            <input id="last-name" type="text" name="last-name" placeholder="Last Name" size="30px" style="background-color:#FFBE58" required/>
+            <input id="email"  type="email" name="email" placeholder="E-mail" size="30px" style="background-color:#FFBE58" required>
+            <input id="password" type="password" name="password" placeholder="Password" size="30px" style="background-color:#FFBE58" required>
+            <button id="submit"  type="submit" class="sign-up-button">Sign-Up</button>
+        </form>
         <a href="../login%20page/LoginPage.html">
         <p>Already Registered? <button class="another-login">Login</button></p>
         </a>
     </div>
 </div>
-
+<script src="Signup.js"></script>
 
 </body>
 </html>
