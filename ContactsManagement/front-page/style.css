@@ -13,7 +13,7 @@ body{
     display: flex;
     gap: 10px;
     justify-content: right;
-    margin-left : 55rem
+    margin-left : 53rem
 }
 
 .nav-button{
@@ -47,13 +47,14 @@ body{
 }
 
 .image{
-    height: 4rem;
-    width: 7rem;
+    height: 6rem;
+    width: 8rem;
 }
 
 .first-pics{
     height:25rem;
     width: 35rem;
+    border-radius: 7px;
 }
 .sub-header{
     align-items: end;
@@ -61,4 +62,8 @@ body{
     color: rgb(3, 54, 61);
     font-weight: 600;
     font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

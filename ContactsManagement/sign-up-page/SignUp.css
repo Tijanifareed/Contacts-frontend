@@ -19,7 +19,7 @@ body{
     /*border-color: white;*/
     border: solid;
     padding: 10px 20px;
-    height: 420px;
+    height: 450px;
     width: 240px;
     background-color: #FFBE58;
 
@@ -36,4 +36,34 @@ body{
 .all{
     display: flex;
     gap: 17rem;
+}
+
+.sign-up-message{
+    font-family: Inter, sans-serif;
+}
+.some-details{
+    font-family: Inter, sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sign-up-button{
+    width: 15rem;
+    height: 2rem;
+    background-color: #FFBE58;
+    color: grey;
+    border-radius: 10px;
+    border: solid  grey;
+}
+
+.sign-up-button:hover{
+    background-color: grey;
+    color: white;
+    transform: scale(1.1);
+}
+.another-login{
+    background-color: transparent;
+    border: none;
 }
