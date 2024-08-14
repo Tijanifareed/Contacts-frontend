@@ -23,9 +23,12 @@ body{
     border-radius:7px;
     border: none;
     margin-top: 1rem;
+    background-color: darkgoldenrod;
+    color:rgb(3,54,61);
 }
 .nav-button:hover{
     transform: scale(1.2);
+    background-color: #FFBE58;
 }
 
 .ContactManagement{

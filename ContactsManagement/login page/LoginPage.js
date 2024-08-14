@@ -15,7 +15,7 @@ form.addEventListener('submit', async (e) => {
         body: JSON.stringify({email: email, password: password})
     })
     if(data.ok){
-        window.location.href = "./ContactsFrontEnd.html";
+        window.location.href = "../user-operations/UserOperations.html";
     } else {
         alert("Invalid email or password")
     }

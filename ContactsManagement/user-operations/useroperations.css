@@ -1,0 +1,120 @@
+.header{
+
+    /*margin-left:20rem;*/
+}
+body{
+    background-color: #FFBE58
+}
+
+.welcome{
+    font-size: 65px;
+    font-weight: 630;
+    color:rgb(3,54,61);
+    margin-bottom: 0;
+    font-family: "Sharp Sans",Arial,sans-serif;
+    line-height: 70px;
+    margin-left: 25rem;
+}
+.user-choice{
+    font-size: 50px;
+    font-weight: 600;
+    color:rgb(3,54,61);
+    margin-bottom: 0;
+    font-family: "Sharp Sans",Arial,sans-serif;
+    line-height: 65px;
+    margin-left: 10rem;
+}
+
+.first-button{
+    height: 10rem;
+    width: 10rem;
+    background-color: gold;
+    border-radius: 7px;
+    border: none;
+    font-size: 1rem
+}
+
+.first-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: darkgoldenrod;
+}
+
+.second-button{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 7px;
+    border: none;
+    background-color: gold;
+    font-size: 1rem
+}
+
+.second-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: darkgoldenrod;
+}
+
+.third-button{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 7px;
+    border: none;
+    background-color: gold;
+    font-size: 1rem
+}
+
+.third-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: darkgoldenrod;
+}
+
+.fourth-button{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 7px;
+    border: none;
+    background-color: gold;
+    font-size: 1rem
+}
+
+.fourth-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: darkgoldenrod;
+}
+
+.fifth-button{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 7px;
+    border: none;
+    background-color: gold;
+    font-size: 1rem
+}
+.fifth-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: darkgoldenrod;
+}
+
+.sixth-button{
+    height: 10rem;
+    width: 10rem;
+    background-color: gold;
+    border-radius: 7px;
+    border: none;
+    font-size: 1rem
+}
+
+.sixth-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: darkgoldenrod;
+}
+
+.button-container{
+    display: flex;
+    gap: 50px
+}

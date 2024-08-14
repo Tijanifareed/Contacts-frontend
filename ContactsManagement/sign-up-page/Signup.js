@@ -17,9 +17,10 @@ form.addEventListener('submit', async (e) => {
         body: JSON.stringify({firstName: firstName, lastName: lastName, password: password, email: email}),
     })
     if (data.ok) {
-        console.log("User registered successfully")
+        alert("User Created Successfullyz")
+        window.location.href = "../login page/LoginPage.html";
     } else {
-        console.error("Failed to register user")
+        alert("User Alredy registered try again later");
     }
 
 })
