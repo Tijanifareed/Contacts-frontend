@@ -16,11 +16,15 @@ form.addEventListener('submit', async (e) => {
         },
         body: JSON.stringify({firstName: firstName, lastName: lastName, password: password, email: email}),
     })
+
+    const responseData = await data.json();
+
     if (data.ok) {
-        alert("User Created Successfullyz")
+        alert("User Created Successfully")
         window.location.href = "../login page/LoginPage.html";
     } else {
-        alert("User Alredy registered try again later");
+        const errorMessage = responseData.data;
+        alert("error: " + errorMessage);
     }
 
 })

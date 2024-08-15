@@ -17,14 +17,15 @@ form.addEventListener("submit", async (e) => {
         },
         body: JSON.stringify({firstName: firstName, lastName: lastName, phoneNumber: phoneNumber, email: email, address: address, ownerEmail: ownerEmail}),
     })
+
+    const responseData = await data.json(); // Get response data
+
     if (data.ok) {
-        const responseData = await data.json(); // Get response data
         console.log(responseData); // Log response data
         alert("Contact created successfully!");
         window.location.href = "../UserOperations.html";
     } else {
-        const errorMessage = await data.text(); // Get error message
-        console.error(errorMessage); // Log error message
+        console.log(responseData);// Log error message
         alert("Failed to create contact!");
     }
 });

@@ -1,0 +1,15 @@
+.response-data{
+    border: solid;
+    padding: 10px 20px;
+    height: 550px;
+    width: 290px;
+    margin-left: 480px;
+}
+
+body{
+    background-color: #FFBE58;
+}
+
+.header{
+    font-family: Inter, sans-serif;
+}
