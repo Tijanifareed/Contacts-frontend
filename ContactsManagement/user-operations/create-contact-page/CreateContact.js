@@ -1,5 +1,5 @@
 const form = document.querySelector(".form-tag");
-const url = "http://localhost:8080/api/v1/user/create-contact"
+const url = "http://localhost:8080/api/v1/user/create-contact";
 
 form.addEventListener("submit", async (e) => {
     e.preventDefault()
@@ -18,14 +18,14 @@ form.addEventListener("submit", async (e) => {
         body: JSON.stringify({firstName: firstName, lastName: lastName, phoneNumber: phoneNumber, email: email, address: address, ownerEmail: ownerEmail}),
     })
 
-    const responseData = await data.json(); // Get response data
+    const responseData = await data.json();
 
     if (data.ok) {
-        console.log(responseData); // Log response data
+        console.log(responseData);
         alert("Contact created successfully!");
         window.location.href = "../UserOperations.html";
     } else {
-        console.log(responseData);// Log error message
+        console.log(responseData);
         alert("Failed to create contact!");
     }
 });

@@ -13,3 +13,27 @@ body{
 .header{
     font-family: Inter, sans-serif;
 }
+
+input{
+    border-radius: 10px;
+    border: solid gray;
+    box-shadow: none;
+    height: 2rem;
+    margin-bottom: 2rem;
+    width: 16rem;
+}
+
+.submit-button{
+    width: 16rem;
+    height: 2rem;
+    background-color: #FFBE58;
+    color: grey;
+    border-radius: 10px;
+    border: solid  grey;
+}
+
+.submit-button:hover{
+    background-color: grey;
+    color: white;
+    transform: scale(1.1);
+}

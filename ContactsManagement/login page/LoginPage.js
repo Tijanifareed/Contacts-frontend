@@ -15,6 +15,7 @@ form.addEventListener('submit', async (e) => {
         body: JSON.stringify({email: email, password: password})
     })
     if(data.ok){
+        alert("Logged in Successfully")
         window.location.href = "../user-operations/UserOperations.html";
     } else {
         alert("Invalid email or password")

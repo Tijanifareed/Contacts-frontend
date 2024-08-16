@@ -7,13 +7,18 @@
 </head>
 <body>
 <div id="response-data" class="response-data" style="margin-top: 20px;">
-    <h2 class="header">Here Is Your Contact!:</h2>
-    <p id="firstName"></p>
-    <p id="lastName"></p>
-    <p id="phoneNumber"></p>
+    <h1>Search for a Contact</h1>
+    <p>Enter the contact phone-number: </p>
+    <form class="form-tag">
+    <input id="phone-number" type="number" name="phone-number" placeholder="Phone Number" size="30px" style="background-color:#FFBE58 " required>
+    <button id="submit" type="submit" class="submit-button">Submit</button>
+    </form>
+<!--    <h2 class="header">Here Is Your Contact!:</h2>-->
+    <p id="name"></p>
     <p id="email"></p>
+    <p id="phoneNumber"></p>
     <p id="address"></p>
 </div>
-
+<script src="SearchForAContact.js"></script>
 </body>
 </html>
