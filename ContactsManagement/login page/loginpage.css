@@ -41,6 +41,7 @@ input{
     color: grey;
     border-radius: 10px;
     border: solid  grey;
+    cursor: pointer;
 }
 
 .login-button:hover{

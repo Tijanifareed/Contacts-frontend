@@ -21,6 +21,3 @@ form.addEventListener('submit', async (e) => {
         alert("Invalid email or password")
     }
 })
-
-
-

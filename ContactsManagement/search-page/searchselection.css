@@ -1,0 +1,56 @@
+.container{
+    /*border:solid ;*/
+    height: 17rem;
+    width: 28rem;
+    margin-left: 26rem;
+    margin-top: 8rem;
+}
+
+body{
+    background-color: #FFBE58;
+}
+
+.button-container{
+    display: flex;
+    gap:20px;
+    margin-left: 5px;
+}
+
+.headertext{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 150px;
+
+}
+
+.buttons{
+    width: 13rem;
+    height: 2rem;
+    background-color: #FFBE58;
+    color: grey;
+    border-radius: 10px;
+    border: solid  grey;
+    cursor: pointer;
+
+}
+
+.buttons:hover{
+    background-color: grey;
+    color: white;
+    transform: scale(1.1);
+}
+
+.second{
+    margin-left: 6rem;
+}
+
+.menu-button{
+    width: 150px;
+    margin-left: 600px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    border: solid grey;
+    margin-top: 250px;
+}

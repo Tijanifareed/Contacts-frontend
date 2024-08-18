@@ -8,12 +8,12 @@ form.addEventListener('submit', async (e) => {
     const password = document.querySelector("#password").value
     const email = document.querySelector("#email").value
 
-    const data = await fetch(url, {
-
-        method: "POST",
+    const data = await fetch("http://localhost:8080/api/v1/user/register", {
+        method: 'POST',
         headers: {
-            "Content-Type": "application/json"
+            'Content-Type': 'application/json'
         },
+
         body: JSON.stringify({firstName: firstName, lastName: lastName, password: password, email: email}),
     })
 

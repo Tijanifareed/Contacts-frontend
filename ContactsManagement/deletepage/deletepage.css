@@ -1,0 +1,58 @@
+body{
+    background-color: #FFBE58;
+}
+.container{
+    margin-top: 5rem;
+    align-items: center;
+    border-radius: 10px;
+    /*border-color: white;*/
+    border: solid;
+    padding: 10px 20px;
+    height: 160px;
+    width: 250px;
+    background-color: #FFBE58;
+    margin-left: 400px;
+}
+
+.button-container{
+    display: flex;
+    gap: 2rem;
+    margin-top: 40px;
+}
+
+
+.delete-button:hover{
+    background-color: white;
+    color: grey;
+    transform: scale(1.1);
+}
+
+input{
+    border-radius: 10px;
+    border: solid gray;
+    box-shadow: none;
+    height: 2rem;
+    width: 15rem;
+}
+
+.delete-button{
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 65px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    border: solid grey;
+}
+
+.menu-button{
+    width: 150px;
+    margin-left: 600px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    border: solid grey;
+    margin-top: 250px;
+}

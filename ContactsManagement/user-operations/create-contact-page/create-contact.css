@@ -6,7 +6,7 @@ body{
     margin-top: 16rem;
     color:rgb(3,54,61);
     font-family: Inter, sans-serif;
-    font-weight:300;
+    font-weight:250;
     font-size: 4rem;
     line-height: 10px;
     margin-left: 3rem;
@@ -49,6 +49,7 @@ input{
     color: grey;
     border-radius: 10px;
     border: solid  grey;
+    cursor: pointer;
 }
 
 .submit-button:hover{
@@ -56,4 +57,17 @@ input{
     color: white;
     transform: scale(1.1);
 }
+
+.menu-button{
+    margin-top:50px;
+    width: 150px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    border: solid grey;
+}
+
+
+
 

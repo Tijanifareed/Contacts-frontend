@@ -1,7 +1,7 @@
 .response-data{
     border: solid;
     padding: 10px 20px;
-    height: 550px;
+    height: 500px;
     width: 290px;
     margin-left: 480px;
 }
@@ -30,10 +30,22 @@ input{
     color: grey;
     border-radius: 10px;
     border: solid  grey;
+    cursor: pointer;
 }
 
 .submit-button:hover{
     background-color: grey;
     color: white;
     transform: scale(1.1);
+}
+
+.menu-button{
+    width: 150px;
+    margin-left: 600px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    border: solid grey;
+
 }
